@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cart — JuanPullz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="JuanPullz logo"/>
+        <span>JuanPullz</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Shop</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Your Cart</h1>
+    <table class="cart-table" id="cart-table">
+      <thead>
+        <tr>
+          <th>Item</th><th>Set</th><th>Rarity</th><th>Price</th><th>Qty</th><th>Total</th><th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="summary">
+      <div class="box">
+        <div><strong>Order Summary</strong></div>
+        <div id="summary-lines" class="small" style="margin:.5rem 0 0;"></div>
+        <div style="margin-top:.6rem;"><strong>Subtotal:</strong> <span id="subtotal">$0.00</span></div>
+        <div><strong>Shipping:</strong> <span id="shipping">$0.00</span></div>
+        <div><strong>Total:</strong> <span id="grandtotal">$0.00</span></div>
+      </div>
+      <div class="box">
+        <div><strong>Checkout</strong></div>
+        <button id="email-checkout" class="checkout-btn">Email me an invoice</button>
+        <button id="clear-cart" class="secondary-btn">Clear Cart</button>
+        <p class="small" style="margin-top:.6rem;">Tip: Add Stripe Payment Links per item in <code>products.json</code> to enable “Buy Now”.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> JuanPullz</div>
+  </footer>
+
+  <script type="module" src="js/utils.js"></script>
+  <script type="module" src="js/cart.js"></script>
+</body>
+</html>

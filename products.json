@@ -1,0 +1,54 @@
+[
+  {
+    "id": "psa9-base-charizard-4-102",
+    "kind": "graded",
+    "grader": "PSA",
+    "grade": "9",
+    "name": "Charizard (Base Set) 4/102 \u2014 PSA 9",
+    "set": "Base Set",
+    "rarity": "Holo Rare",
+    "type": "Fire",
+    "number": "4/102",
+    "price": 38999,
+    "image": "images/logo.png",
+    "paymentLink": ""
+  },
+  {
+    "id": "cgc95-neo-lugia-7-111",
+    "kind": "graded",
+    "grader": "CGC",
+    "grade": "9.5",
+    "name": "Lugia (Neo Genesis) 7/111 \u2014 CGC 9.5",
+    "set": "Neo Genesis",
+    "rarity": "Holo Rare",
+    "type": "Psychic",
+    "number": "7/111",
+    "price": 199999,
+    "image": "images/logo.png",
+    "paymentLink": ""
+  },
+  {
+    "id": "raw-sv-miraidon-201-198",
+    "kind": "raw",
+    "name": "Miraidon ex (Scarlet & Violet) 201/198",
+    "set": "Scarlet & Violet",
+    "rarity": "Secret Rare",
+    "type": "Electric",
+    "number": "201/198",
+    "price": 8999,
+    "image": "images/logo.png",
+    "paymentLink": ""
+  },
+  {
+    "id": "raw-pikachu-paldean-fates-ir",
+    "kind": "raw",
+    "name": "Pikachu (Paldean Fates) IR",
+    "set": "Paldean Fates",
+    "rarity": "Ultra Rare",
+    "type": "Electric",
+    "number": "IR",
+    "price": 2499,
+    "image": "images/logo.png",
+    "paymentLink": ""
+  }
+]
